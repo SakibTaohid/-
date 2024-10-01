@@ -1,0 +1,47 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(images\background-img.jpg);
+    background-position: center;
+}
+header {
+  width: 100vw;
+  background-color: rgb(46, 44, 44);
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .brand-logo img {
+  width: 5rem;
+  height: 5rem;
+}
+nav .container ul li {
+  display: inline;
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  text-decoration: none;
+  cursor: pointer; 
+  transition: text-decoration 1s ease;
+}
+nav .container ul li:hover {
+  text-decoration: underline aqua 2px;
+
+}
+/* Ending of header section  */
+main .img-container {
+    margin-left: 5vw;
+}
+main .img-container img {
+  display: inline;
+  width: 15vw;
+  margin: 10px;
+  box-shadow:10px 10px 5px rgba(32, 37, 38, 0.281);
+  cursor: pointer;
+}
+/* small main section end  */
+
